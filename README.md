@@ -24,11 +24,11 @@ This is a similar trajectories finding program we submitted to the ACM SIGSPATIA
 	
 # Central idea:
 
-In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set. The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using fewer searches.
+	In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set. The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using fewer searches.
 
 # Paper:
 
-Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajectory Similarity Based on Fréchet Distance Threshold[J]. International Journal of Geo-Information, 2017, 6(11):326.
+	Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajectory Similarity Based on Fréchet Distance Threshold[J]. International Journal of Geo-Information, 2017, 6(11):326. DOI: 10.3390/ijgi6110326
 
 # Contact:
 
