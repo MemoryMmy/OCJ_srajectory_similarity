@@ -16,7 +16,8 @@ Citation: Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajecto
 	> make
 
 # Data:
-	A test dataset of 100 trajectories is provided. For more data: http://sigspatial2017.sigspatial.org/giscup2017/download
+	A test dataset of 100 trajectories is provided. 
+	For more data: http://sigspatial2017.sigspatial.org/giscup2017/download
 
 # Run:
 	Note: When the number of trajectories in the dataset.txt is more than 50000, the minimun RAM required is 32GB.
@@ -29,7 +30,12 @@ Citation: Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajecto
 	
 # Central idea:
 
-	In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set. The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using fewer searches.
+	In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, 
+	which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then 
+	an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set.
+	The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can 
+	search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using 
+	fewer searches.
 
 # Contact:
 
