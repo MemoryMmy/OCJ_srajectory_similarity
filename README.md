@@ -1,4 +1,3 @@
-## OCJ_srajectory_similarity
 # An Efficient Query Algorithm for Trajectory Similarity Based on MPI using the Fréchet Distance Threshold 
 
 This is a similar trajectories finding program we submitted to the ACM SIGSPATIAL Cup 2017 (http://sigspatial2017.sigspatial.org/giscup2017/). In this competition, the goal is to find the similar trajectories of given trajectories by using Fréchet distance as similarity measurement. In our method, we create spatial indexes for the first and last points of the trajectories in the dataset.txt separately, which are used to filter out most of the dissimilar trajectories and generate a much smaller candidate set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to search the similar trajectories form the candidate set.
@@ -25,10 +24,14 @@ This is a similar trajectories finding program we submitted to the ACM SIGSPATIA
 	
 # Central idea:
 
-	In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set. The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using fewer searches.
-  
+In our method, we create R-tree indexes for the first and last points of the trajectories in the dataset.txt separately, which could filter out most of the dissimilar trajectories and generate a much smaller candidate trajectories set. Then an Ordered-Coverage-Judge Fréchet distance algorithm is presented to find the similar trajectories from the candidate set. The Ordered-Coverage-Judge Fréchet distance algorithm is a depth-first heuristic search algorithm. This algorithm can search out whether there exists a match distance of two discrete trajectories within the given Fréchet distance using fewer searches.
+
+# Paper:
+
+Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajectory Similarity Based on Fréchet Distance Threshold[J]. International Journal of Geo-Information, 2017, 6(11):326.
+
 # Contact:
 
-	Name: Mengyu Ma 
+	Mengyu Ma @ National University of Defense Technology
 	Email: mamengyu10@nudt.edu.cn
 
