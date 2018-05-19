@@ -32,6 +32,6 @@ Citation: Guo N, Ma M, Xiong W, et al. An Efficient Query Algorithm for Trajecto
 
 # Contact:
 
-	Mengyu Ma @ National University of Defense Technology
+	Mengyu Ma@ National University of Defense Technology
 	Email: mamengyu10@nudt.edu.cn
 
